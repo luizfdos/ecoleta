@@ -10,13 +10,21 @@
 
     #page-home header a {
         position: absolute;
-        bottom: 48px;
+        bottom: 30px;
 
         left: 50%;
         transform: translateX(-50%);
     }
     #page-home main {
         align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+    
+    #page-search-results .cards img {
+        height: 250px;
     }
 }
 
@@ -29,5 +37,26 @@
 @media (max-height: 760px) {
     #page-home {
         background-position-y: 200px ;
+    }
+}
+@media (max-height: 680px) and (max-width: 500px){
+    #page-home main h1 {
+        font-size: 30px;
+    }
+    #page-home header a {
+        position: absolute;
+        bottom: 20px;
+    }
+    #page-home header a span {
+        display: none;
+    }
+    #page-search-results header img,
+    #page-create-point header img {
+        margin-bottom: 20px;
+    }
+    #page-search-results header,
+    #page-create-point  header{
+        flex-direction: column;
+        
     }
 }
