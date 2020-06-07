@@ -1,7 +1,7 @@
-  <a href="https://luizfdos.github.io">
+  <a href="https://luizfdos.github.io" target="_blank">
     <img alt="Made by LuizFDOS" src="https://img.shields.io/badge/made%20by-LuizFDOS-%237519C1">
   </a>
-   <a href="https://rocketseat.com.br">
+   <a href="https://rocketseat.com.br" target="_blank">
     <img alt="Instrução Rocketseat ♥" src="https://img.shields.io/badge/Instutor-MaykBrito-%237519C1">
   </a>
   
